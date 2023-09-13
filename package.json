@@ -1,0 +1,26 @@
+{
+  "name": "erc1155p",
+  "version": "0.1.0",
+  "description": "New protocol of ERC1155, built by Polarys Foundation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ethereum",
+    "Blockchain",
+    "EVM",
+    "ERC1155"
+  ],
+  "author": "Polarys Foundation (Uranus)",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.3.1",
+    "truffle": "^5.11.4"
+  },
+  "devDependencies": {
+    "truffle-plugin-stdjsonin": "^0.5.15"
+  }
+}
